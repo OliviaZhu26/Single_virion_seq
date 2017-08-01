@@ -1,6 +1,6 @@
 <strong>BAsE-Seq Pipeline</strong>
 
-The pipeline described here processes BAsE-Seq raw reads into long single-virion haplotypes.
+The pipeline described here processes BAsE-Seq raw reads into long single-virion haplotypes, and was developed as a joint effort between the Institute of Molecular and Cell Biology, Singapore (IMCB) and Genome Institute of Singapore (GIS).  
 
 
 <strong>How to Run</strong>
@@ -9,11 +9,11 @@ The pipeline described here processes BAsE-Seq raw reads into long single-virion
 Create individual folders for each sample. 
 
 
-1. Run reference genome picker. (Written to identify most likely HBV genotype. Skip this if appropriate reference is known.)
+1. Run reference genome picker. (Written to identify closest HBV genotype. Skip this if an appropriate reference is known.)
 
     command: ./refPick.sh fastq_file.list ref_genomes.list data_directory/
 
-    Output file 02_mismatches.txt will summarize % mismatches to each reference tested.
+    fastq_file.list should have each fastq file location and name on a new line. ref_genomes.list should have each reference fasta on a new line. Output file 02_mismatches.txt summarizes % mismatches to each reference tested.
     
 
 2. Run BAsE-Seq aligner. (Using closest Genotype as identified above.)
@@ -64,13 +64,12 @@ Yuan Zhu modified and rewrote part of the scripts as described in the publicatio
     Single-Virion Sequencing Of Lamivudine Treated HBV Populations Reveal Population Evolution Dynamics And Demographic History (under review in BMC Genomics)   
     An earlier draft was uploaded at: http://www.biorxiv.org/content/early/2017/04/20/129023 
 
+The following Colleagues also provided input.  
+Andreas Wilm (GIS)  
+Niranjan Nagarajan (GIS)  
+Chenhao Li (GIS)  
+
 
 <strong>License</strong>
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-
-<strong>Acknowledgments</strong>
-
-Andreas Wilm  
-Niranjan Nagarajan
