@@ -37,7 +37,7 @@ Create individual folders for each sample.
 
 <strong>Prerequisites</strong>
 
-<p>This pipeline is dependent on:</p>
+<p>This pipeline calls on:</p>
 <ul>
 <li>Perl</li>
 <li>Trimmomatic-0.30</li>
