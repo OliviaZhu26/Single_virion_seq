@@ -56,13 +56,13 @@ Replace or update each component as required.
 <strong>Authors</strong>
 
 Lewis Hong wrote the original scripts as described in the publication  
-    BAsE-Seq: a method for obtaining long viral haplotypes from short sequence reads  
+    "BAsE-Seq: a method for obtaining long viral haplotypes from short sequence reads"  
     https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0517-9
 
 
 Yuan Zhu modified and rewrote part of the scripts as described in the publication  
-    Single-Virion Sequencing Of Lamivudine Treated HBV Populations Reveal Population Evolution Dynamics And Demographic History (under review in BMC Genomics)   
-    An earlier draft was uploaded at: http://www.biorxiv.org/content/early/2017/04/20/129023 
+    "Single-Virion Sequencing Of Lamivudine Treated HBV Populations Reveal Population Evolution Dynamics And Demographic History" (under review in BMC Genomics)   
+    An early draft was uploaded at: http://www.biorxiv.org/content/early/2017/04/20/129023 
 
 The following Colleagues also provided input.  
 Andreas Wilm (GIS)  
