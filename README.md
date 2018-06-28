@@ -11,20 +11,20 @@ Create individual folders for each sample.
 
 1. Run reference genome picker from within sample folder. This is an optional step written to identify closest HBV genotype for each sample. Skip this if an appropriate reference is known.
 
-    command: ./00_refPick.sh fastq_file.list ref_genomes.list data_directory/ scripts_directory
+    command: 00_refPick.sh fastq_file.list ref_genomes.list data_directory/ scripts_directory
 
     fastq_file.list should have each fastq file name on a new line. ref_genomes.list should have each reference fasta on a new line. Output file 02_mismatches.txt summarizes % mismatches to each reference tested. Output file 03_best_match_chroms.txt contains a single line for best match reference genotype. For input and output file formats as well as intermediate files created refer to 00_refPick.sh script. 
     
 
 2. Run BAsE-Seq aligner. (Using closest Genotype as identified above.)
 
-    command: ./01_BAsE_seq_alignment.sh parameter_file.txt
+    command: 01_BAsE_seq_alignment.sh parameter_file.txt
 
     QC plots generated can be used to gauge library quality such as overall per base coverage and number of genomes with %bases covered to 4x. Adjust variables for the next step as required. 
 
 
 3. Run BAsE-Seq haplotype caller
-    command: ./Base_seq_haplotype.sh 4 50 59 3198 3215 1 1500
+    command: 02_Base_seq_haplotype.sh min_cov min_percent_cov start_pos end_pos length
     
 4. Final file ConsensusSeqs.txt contains consensus sequences for all barcodes that passed quality filters. 
 
