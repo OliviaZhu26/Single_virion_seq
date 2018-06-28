@@ -5,6 +5,12 @@ use strict;
 ##### SCAN EACH CONSENSUS SEQUENCE AND IDENTIFY VARIANT POSITIONS RELATIVE TO CONSENSUS #####
 #############################################################################################
 
+#echo "Identify SNVs and construct haplotypes within sample population"
+#Obtain SNVs from individual genomes (eg. true SNV cutoff > 1%; "bad-call" cutoff = 1500 genomes):
+###perl $SCRIPTPATH/snv_from_genomes.pl  $REFPATH IndividualGenomes/individual_seq/ $startPos $endPos $cutoff $noGenomes Indiv_SNV_raw.txt Indiv_SNV_filtered.txt
+#Construct haplotypes from all genomes:
+#perl $SCRIPTPATH/haplo_list_all.pl $REFPATH SNVs_all.txt IndividualGenomes/individual_seq/ Indiv_haplo.txt
+
 my $start = $ARGV[2]; #right-most forward priming position
 my $end = $ARGV[3]; #left-most reverse priming position
 my $bad_call = $ARGV[4]; # minimum number of genomes called to avoid "bad-call"
