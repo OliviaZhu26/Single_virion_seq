@@ -10,7 +10,7 @@
 #see example_parameter_file.txt for parameter file format
 
 ##Required software: see full list in README.md 
-##Calls scripts: (please refer to individual scripts for details
+##Calls scripts: (please refer to individual scripts for details)
 #  Obtain_barcode.pl 
 #  Obtain_pfreads.pl 
 #  filter_sam.pl
