@@ -1,7 +1,9 @@
 use warnings;
 use strict;
 
-### REMOVE DUPLICATES FROM INDIVIDUAL GENOMES
+##Author: Lewis HONG and ZHU O. Yuan
+##Script name: Rmdup.pl
+##REMOVE DUPLICATES FROM INDIVIDUAL GENOMES
 my$DIRECTORY=$ARGV[0];
 
 system "mkdir $DIRECTORY/IndividualGenomes/sorted_bam_rmdup";
@@ -14,6 +16,3 @@ foreach my $file (@files) {
 		system $cmd;
 	}
 }
-
-
-
