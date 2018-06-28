@@ -1,35 +1,37 @@
-###directory where the fastq files are
+##This is the parameter file required to run BAsE-Seq pipeline script 01_BAsE-Seq_alignment.sh
+
+###directory where the fastq files are. For example,
 DATAPATH=".../Patient1.1"
 
-###path where the reference file is
+###path where the reference file is. For example,
 REFPATH=“.../Reference/GenotypeB.fasta"
 
-###directory where the scripts are
+###directory where the scripts are. For example,
 SCRIPTPATH=".../scripts"
 
-##file names of the fastq files
+##file names of the fastq files. For example,
 READ1="R1_001.fastq"
 READ2="R2_001.fastq"
 
-###barcode flanking unique sequence to look for
+###barcode flanking unique sequence to look for. For example,
 BARCD="CGAC"
 
-###barcode length
+###barcode length. For example,
 RNLEN="20"
 
-###output file prefix
+###output file prefix. For example,
 PREFX="Patient1.1"
 
-###minimum number of paired reads to consider a barcode
+###minimum number of paired reads to consider a barcode. For example,
 READSPERBRCD="50"
 
-###min coverage per base required to call
+###min coverage per base required to call. For example,
 COVREQ="4"
 
-###reference name as written in fasta
+###reference name as written in fasta. For example,
 REFNAME="|ref_HBVB|"
 
-###refernece length
+###refernece length. For example,
 REFLEN="3215"
 
 
