@@ -24,15 +24,9 @@ Create individual folders for each sample.
 
 
 3. Run BAsE-Seq haplotype caller
-
     command: ./Base_seq_haplotype.sh 4 50 59 3198 3215 1 1500
     
-
-4. Convert haplotypes into a bam file for downstream variant calling (optional)
-
-    commands: bwasw/graphmap haplotype reads to reference  
-              (edit sam files so all haplotypes map to position 1 of reference with no indels)  
-              perl correct_sam.pl haplotype.sam haplotype_corrected.sam
+4. Final file ConsensusSeqs.txt contains consensus sequences for all barcodes that passed quality filters. 
 
 
 <strong>Prerequisites</strong>
