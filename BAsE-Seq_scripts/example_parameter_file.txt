@@ -1,10 +1,10 @@
-###where the raw fastq files (unzipped) are
+###directory where the fastq files are
 DATAPATH=".../Patient1.1"
 
-###where the reference file is
+###path where the reference file is
 REFPATH=“.../Reference/GenotypeB.fasta"
 
-###where the scripts are
+###directory where the scripts are
 SCRIPTPATH=".../scripts"
 
 ##file names of the fastq files
@@ -17,13 +17,13 @@ BARCD="CGAC"
 ###barcode length
 RNLEN="20"
 
-###out put file prefix
+###output file prefix
 PREFX="Patient1.1"
 
 ###minimum number of paired reads to consider a barcode
 READSPERBRCD="50"
 
-###min coverage per base
+###min coverage per base required to call
 COVREQ="4"
 
 ###reference name as written in fasta
