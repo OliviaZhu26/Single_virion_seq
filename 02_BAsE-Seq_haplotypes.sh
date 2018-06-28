@@ -1,6 +1,6 @@
 #!/bin/sh
 
-##Author: ZHU O. Yuan
+##Author: Lewis Hong and ZHU O. Yuan
 ##Script name: 02_BAsE-Seq_haplotypes.sh
 ##BAsE-Seq pipeline script part 02 to generate consensus sequences for each barcode
 ##Run as ./02_Base_seq_haplotype.sh 4 50 59 3198 3215 1 1500
