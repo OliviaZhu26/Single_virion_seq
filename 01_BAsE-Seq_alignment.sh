@@ -16,7 +16,6 @@
 #  filter_sam.pl
 #  Split_sam.pl
 #  Sam_to_bam.pl
-#  Sort_bam.pl
 #  Rmdup.pl
 #  Bam_to_vcf_lofreq.pl
 #  Bam_to_mpileup.pl
@@ -71,7 +70,7 @@ perl $SCRIPTPATH/Split_sam.pl $DATAPATH/$PREFX.barcoded_2_clipped_pf.fastq $DATA
 
 #Convert sam to bam, then sort:
 perl $SCRIPTPATH/Sam_to_bam.pl $DATAPATH
-perl $SCRIPTPATH/Sort_bam.pl $DATAPATH
+#perl $SCRIPTPATH/Sort_bam.pl $DATAPATH (merged with Sam_to_bam.pl, no longer required)
 
 #Remove read duplicates:
 echo "Calling SNPs"
