@@ -4,6 +4,13 @@ use strict;
 #reads in sam files from graphmap/bwasw and removes forced indels
 #perl SAM_file_remove-misalign.pl Base_seq_haplotypes.sam > Base_seq_haplotypes_corrected.sam
 
+
+#4. Convert haplotypes into a bam file for downstream variant calling (optional)
+#    commands: bwasw/graphmap haplotype reads to reference  
+#              (edit sam files so all haplotypes map to position 1 of reference with no indels)  
+#              perl correct_sam.pl haplotype.sam haplotype_corrected.sam
+	      
+
 open(TXT, $ARGV[0]);
 while(my$lee=<TXT>){
     chomp $lee;
