@@ -70,7 +70,7 @@ Lewis HONG wrote the original scripts as described in the publication
 
 
 Yuan O. ZHU modified and rewrote parts of the scripts as described in the publication  
-    "Single-Virion Sequencing Of Lamivudine Treated HBV Populations Reveal Population Evolution Dynamics And Demographic History" 
+    "Single-Virion Sequencing Of Lamivudine Treated HBV Populations Reveal Population Evolution Dynamics And Demographic History"
     https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4217-1
 
 The following Colleagues also provided valuable feedback and input into the pipeline.  
