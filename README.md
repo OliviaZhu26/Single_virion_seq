@@ -1,6 +1,6 @@
 <strong>BAsE-Seq Pipeline 1.0</strong>
 
-The prototype pipeline described here processes BAsE-Seq raw reads into long single-virion haplotypes, and was developed as a joint effort between the Institute of Molecular and Cell Biology, Singapore (IMCB) and Genome Institute of Singapore (GIS). Initially developed by Lewis HONG and reformatted by ZHU O. Yuan, it was built on HBV BAsE-Seq data for a small exploratory cohort. Not tested on other species. Not optimized for speed or memory usage. Use with caution.  
+The prototype pipeline described here processes BAsE-Seq raw reads into long single-virion haplotypes, and was developed as a joint effort between the Institute of Molecular and Cell Biology, Singapore (IMCB) and Genome Institute of Singapore (GIS). Initially developed by Lewis HONG and reformatted by ZHU O. Yuan, it was built on HBV BAsE-Seq data for a small exploratory cohort. Not tested on other species. Not optimized for speed or memory usage. Use with caution. Data in the form of raw fastq reads is available from https://www.ncbi.nlm.nih.gov/bioproject/407696. For information on the samples and how they were generated please refer to https://www.ncbi.nlm.nih.gov/pubmed/25406369 and https://www.ncbi.nlm.nih.gov/pubmed/29078745.
 
 
 <strong>How to Run</strong>
